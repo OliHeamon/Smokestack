@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "",
+  "authors": [
+    "Oli"
+  ],
+  "contact": {
+  },
+  "license": "LGPLv3",
+  "icon": "assets/${id}/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mov.oli.smokestack.platforms.fabric.SmokestackFabric"
+    ],
+    "modmenu": [
+      "mov.oli.smokestack.platforms.fabric.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "smokestack-common.mixins.json",
+    "smokestack-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "${minecraft}"
+  }
+}

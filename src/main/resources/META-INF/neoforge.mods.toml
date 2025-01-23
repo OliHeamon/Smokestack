@@ -1,0 +1,19 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "LGPLv3"
+issueTrackerURL="https://AuthorExample/TempLate/issues"
+
+[[mods]]
+modId = "smokestack"
+version = "${version}"
+displayName = "${name}"
+authors = "Oli"
+description = ""
+logoFile = "assets/smokestack/icon.png"
+logoBlur = false
+
+[[mixins]]
+config = "smokestack-common.mixins.json"
+
+[[mixins]]
+config = "smokestack-neoforge.mixins.json"

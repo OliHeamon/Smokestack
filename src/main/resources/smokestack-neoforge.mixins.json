@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "mov.oli.smokestack.platforms.neoforge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
